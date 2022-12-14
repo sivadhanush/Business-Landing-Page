@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1200px) {
+    .menubar{
+        display: block;
+    }
+    .menulist{
+        display: none;
+    }
+    .left-section{
+        width: 100%;
+    }
+    .right-section{
+        width: 100%;
+        text-align: center;
+    }
+    .right-section h1{
+        font-size:45px ; 
+    }
+    .box{
+        width: 100%;
+    }
+    .left-box h1{
+        font-size: 25px;
+    }
+    .portfolio h2{
+        font-size: 30px;
+      }
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    .parts{
+        flex-direction: column-reverse;
+    }
+    .portfolio h2{
+        font-size: 25px;
+      }
+
+    .right-box img{
+    aspect-ratio: 10 / 6;
+    width: 100%;
+    }
+    .right-box{
+        width: 100%;
+    }
+    .left-box{
+        width: 100%;
+    }
+    .team-box{
+        width: 100%;
+    }
+
+    footer{
+        display: none;
+    }
+
+
+  }   
